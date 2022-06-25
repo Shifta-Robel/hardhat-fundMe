@@ -8,7 +8,7 @@ async function main() {
         value: ethers.utils.parseEther("0.1"),
     });
     await transactionResponse.wait(1);
-    console.log("Funded !");
+    console.log("Completed funding!");
 }
 
 main()

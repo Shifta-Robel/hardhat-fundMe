@@ -6,7 +6,7 @@ async function main() {
     console.log("Withdrawing from fundMe ...");
     const transactionResponse = await fundMe.withdraw();
     await transactionResponse.wait(1);
-    console.log("Withdrawn !");
+    console.log("Completed withdrawal !");
 }
 
 main()

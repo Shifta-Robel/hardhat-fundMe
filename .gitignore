@@ -5,6 +5,10 @@ coverage.json
 typechain
 testLogs.log
 yarn-error.log
+.prettierignore
+.prettierrc
+.solhint.json
+.solhintignore
 
 
 #Hardhat files
